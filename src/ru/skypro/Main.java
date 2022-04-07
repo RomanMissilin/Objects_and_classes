@@ -23,16 +23,26 @@ public class Main {
             }
 
             Book lev = new Book ("Война и мир", 1867);
+
             System.out.println("lev.name = " + lev.getName());
             lev.setYear(1868);
             System.out.println("lev.year = " + lev.getYear());
+
             Author War = new Author("Лев Толстой");
+
             System.out.println("War.name = " + War.getName());
+            System.out.println(lev + " " + War);
 
             Book Eugene = new Book("Евгения Онегина", 1833);
+
             System.out.println("Eugene.name = " + Eugene.getName());
             System.out.println("Eugene.name = " + Eugene.getYear());
+
             Author Alexander = new Author("Алксандр Пушкин");
+
             System.out.println("Alexander.name = " + Alexander.getName());
+            System.out.println(Eugene + " " + Alexander);
+            // А можно два класса объеденить и как это сделать?
+
     }
 }
